@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 TV launcher banner: four cards in a diamond. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:fillColor="#101A5C" android:pathData="M0,0h320v180h-320z" />
+    <path android:fillColor="#F6CE3C" android:pathData="M148,22h24a8,8 0,0 1,8 8v26a8,8 0,0 1,-8 8h-24a8,8 0,0 1,-8 -8v-26a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#F6CE3C" android:pathData="M148,116h24a8,8 0,0 1,8 8v26a8,8 0,0 1,-8 8h-24a8,8 0,0 1,-8 -8v-26a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#F6CE3C" android:pathData="M98,69h24a8,8 0,0 1,8 8v26a8,8 0,0 1,-8 8h-24a8,8 0,0 1,-8 -8v-26a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M198,69h24a8,8 0,0 1,8 8v26a8,8 0,0 1,-8 8h-24a8,8 0,0 1,-8 -8v-26a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#C8203A" android:pathData="M160,74a16,16 0,1 1,0 32a16,16 0,1 1,0 -32z" />
+</vector>
