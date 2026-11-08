@@ -8,3 +8,5 @@ captures/
 .DS_Store
 *.apk
 *.aab
+AGENTS.md
+CLAUDE.md
