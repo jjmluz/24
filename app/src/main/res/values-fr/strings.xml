@@ -18,7 +18,7 @@
     <string name="hint_pick_first">Choisis un nombre</string>
     <string name="hint_pick_op">Choisis une opération</string>
     <string name="hint_pick_second">Choisis le deuxième nombre</string>
-    <string name="hint_pick_second_sub">Les cases vides ne comptent pas</string>
+    <string name="hint_pick_second_sub">Cases vides ignorées</string>
     <string name="hint_divide_by_zero">On ne peut pas diviser par 0</string>
     <string name="hint_merging">Calcul…</string>
     <string name="hint_miss">Ça ne fait pas %1$d</string>

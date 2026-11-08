@@ -18,7 +18,7 @@
     <string name="hint_pick_first">Elige un número</string>
     <string name="hint_pick_op">Elige una operación</string>
     <string name="hint_pick_second">Elige el segundo número</string>
-    <string name="hint_pick_second_sub">Los huecos vacíos no cuentan</string>
+    <string name="hint_pick_second_sub">Los huecos no cuentan</string>
     <string name="hint_divide_by_zero">No se puede dividir entre 0</string>
     <string name="hint_merging">Calculando…</string>
     <string name="hint_miss">No da %1$d</string>

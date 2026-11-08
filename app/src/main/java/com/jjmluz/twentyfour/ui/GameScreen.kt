@@ -263,8 +263,25 @@ private fun GameBoard(game: GameState, seconds: StateFlow<Int>, puzzle: Int, dif
             horizontalArrangement = Arrangement.spacedBy(d.dp(14), Alignment.End),
         ) {
             Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
-                Text(hintTitle, color = C.OnSurface, fontSize = d.sp(18), fontWeight = FontWeight.Medium, textAlign = TextAlign.End)
-                if (hintSub.isNotEmpty()) Text(hintSub, color = C.OnSurfaceVariant, fontSize = d.sp(14), textAlign = TextAlign.End)
+                // Longer hints ("Pick the second number", "Choisis le deuxième nombre") wrap in this
+                // narrow corner, so keep the line height tight enough for the lines to read as one block.
+                Text(
+                    hintTitle,
+                    color = C.OnSurface,
+                    fontSize = d.sp(18),
+                    lineHeight = d.sp(22),
+                    fontWeight = FontWeight.Medium,
+                    textAlign = TextAlign.End,
+                    maxLines = 2,
+                )
+                if (hintSub.isNotEmpty()) Text(
+                    hintSub,
+                    color = C.OnSurfaceVariant,
+                    fontSize = d.sp(14),
+                    lineHeight = d.sp(18),
+                    textAlign = TextAlign.End,
+                    maxLines = 2,
+                )
             }
             DpadIcon(Modifier.size(d.dp(44)))
         }
