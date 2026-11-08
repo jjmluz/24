@@ -1,0 +1,48 @@
+<resources>
+    <!-- Portuguese (European, pt-PT). Also used for other Portuguese locales. -->
+
+    <!-- Title screen -->
+    <string name="title_tagline">Faz 24 com quatro números</string>
+    <string name="title_rules">Usa cada número uma vez: soma, subtrai, multiplica ou divide.</string>
+    <string name="play">Jogar</string>
+    <string name="difficulty">Dificuldade</string>
+    <string name="difficulty_all">Todas</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Média</string>
+    <string name="difficulty_hard">Difícil</string>
+
+    <!-- Game board -->
+    <string name="puzzle_label">Desafio</string>
+    <string name="placeholder_start">Escolhe um número para começar</string>
+    <string name="placeholder_next">Escolhe um número</string>
+    <string name="hint_pick_first">Escolhe um número</string>
+    <string name="hint_pick_op">Escolhe uma operação</string>
+    <string name="hint_pick_second">Escolhe o segundo número</string>
+    <string name="hint_pick_second_sub">Espaços vazios não contam</string>
+    <string name="hint_divide_by_zero">Não se pode dividir por 0</string>
+    <string name="hint_merging">A calcular…</string>
+    <string name="hint_miss">Não deu %1$d</string>
+    <string name="hint_miss_sub">As cartas vão voltar</string>
+    <string name="hint_solved">Resolvido!</string>
+    <string name="hint_solved_sub">Usaste os quatro números</string>
+    <string name="miss_note">não é %1$d – tenta outra vez</string>
+    <string name="key_back">VOLTAR</string>
+    <string name="key_ok">OK</string>
+    <string name="action_undo">Anular</string>
+    <string name="action_undo_sub">manter para pausa</string>
+    <string name="action_pause">Pausa</string>
+
+    <!-- Solved dialog -->
+    <string name="solved_heading">Desafio %1$d resolvido</string>
+    <string name="solved_time">Resolvido em %1$s</string>
+    <string name="next_puzzle">Próximo desafio</string>
+    <string name="quit_to_title">Voltar ao início</string>
+
+    <!-- Pause menu -->
+    <string name="paused">Em pausa</string>
+    <string name="timer_stopped">Tempo parado em %1$s</string>
+    <string name="resume">Continuar</string>
+    <string name="restart_puzzle">Recomeçar desafio</string>
+    <string name="new_puzzle">Novo desafio (sem estrelas)</string>
+    <string name="pause_help">↑ ↓ mover · OK escolher · VOLTAR continuar</string>
+</resources>

@@ -1,4 +1,4 @@
-package com.game24.tv.ui
+package com.jjmluz.twentyfour.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue

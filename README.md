@@ -1,4 +1,4 @@
-# Jogo do 24
+# 24
 
 A 24 game for Android TV, played with the remote. Make 24 from four numbers using + − × ÷.
 

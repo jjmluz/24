@@ -1,4 +1,4 @@
-package com.game24.tv.ui
+package com.jjmluz.twentyfour.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -32,8 +32,8 @@ import androidx.compose.ui.unit.sp
 import androidx.tv.material3.Button
 import androidx.tv.material3.ButtonDefaults
 import androidx.tv.material3.Text
-import com.game24.tv.game.Difficulty
-import com.game24.tv.ui.theme.Game24Colors as C
+import com.jjmluz.twentyfour.game.Difficulty
+import com.jjmluz.twentyfour.ui.theme.Game24Colors as C
 import kotlin.math.min
 
 // Screens are laid out on the 1280×720 grid of the canvas mockups and scaled to the TV.

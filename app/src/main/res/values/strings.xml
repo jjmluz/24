@@ -1,50 +1,51 @@
 <resources>
-    <!-- The game is in European Portuguese (pt-PT). -->
-    <string name="app_name">Jogo do 24</string>
+    <!-- English: the default, used when the system language has no translation. -->
+    <!-- The game name is "24" in every language. -->
+    <string name="app_name" translatable="false">24</string>
+    <string name="title" translatable="false">24</string>
 
     <!-- Title screen -->
-    <string name="title">24</string>
-    <string name="title_tagline">Faz 24 com quatro números</string>
-    <string name="title_rules">Usa cada número uma vez: soma, subtrai, multiplica ou divide.</string>
-    <string name="play">Jogar</string>
-    <string name="difficulty">Dificuldade</string>
-    <string name="difficulty_all">Todas</string>
-    <string name="difficulty_easy">Fácil</string>
-    <string name="difficulty_medium">Média</string>
-    <string name="difficulty_hard">Difícil</string>
+    <string name="title_tagline">Make 24 with four numbers</string>
+    <string name="title_rules">Use each number once: add, subtract, multiply or divide.</string>
+    <string name="play">Play</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="difficulty_all">All</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
 
     <!-- Game board -->
-    <string name="puzzle_label">Desafio</string>
-    <string name="placeholder_start">Escolhe um número para começar</string>
-    <string name="placeholder_next">Escolhe um número</string>
-    <string name="hint_pick_first">Escolhe um número</string>
-    <string name="hint_pick_op">Escolhe uma operação</string>
-    <string name="hint_pick_second">Escolhe o segundo número</string>
-    <string name="hint_pick_second_sub">Espaços vazios não contam</string>
-    <string name="hint_divide_by_zero">Não se pode dividir por 0</string>
-    <string name="hint_merging">A calcular…</string>
-    <string name="hint_miss">Não deu %1$d</string>
-    <string name="hint_miss_sub">As cartas vão voltar</string>
-    <string name="hint_solved">Resolvido!</string>
-    <string name="hint_solved_sub">Usaste os quatro números</string>
-    <string name="miss_note">não é %1$d – tenta outra vez</string>
-    <string name="key_back">VOLTAR</string>
+    <string name="puzzle_label">Puzzle</string>
+    <string name="placeholder_start">Pick a number to start</string>
+    <string name="placeholder_next">Pick a number</string>
+    <string name="hint_pick_first">Pick a number</string>
+    <string name="hint_pick_op">Pick an operation</string>
+    <string name="hint_pick_second">Pick the second number</string>
+    <string name="hint_pick_second_sub">Empty slots don\'t count</string>
+    <string name="hint_divide_by_zero">You can\'t divide by 0</string>
+    <string name="hint_merging">Calculating…</string>
+    <string name="hint_miss">That\'s not %1$d</string>
+    <string name="hint_miss_sub">The cards will come back</string>
+    <string name="hint_solved">Solved!</string>
+    <string name="hint_solved_sub">You used all four numbers</string>
+    <string name="miss_note">not %1$d – try again</string>
+    <string name="key_back">BACK</string>
     <string name="key_ok">OK</string>
-    <string name="action_undo">Anular</string>
-    <string name="action_undo_sub">manter para pausa</string>
-    <string name="action_pause">Pausa</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_undo_sub">hold to pause</string>
+    <string name="action_pause">Pause</string>
 
     <!-- Solved dialog -->
-    <string name="solved_heading">Desafio %1$d resolvido</string>
-    <string name="solved_time">Resolvido em %1$s</string>
-    <string name="next_puzzle">Próximo desafio</string>
-    <string name="quit_to_title">Voltar ao início</string>
+    <string name="solved_heading">Puzzle %1$d solved</string>
+    <string name="solved_time">Solved in %1$s</string>
+    <string name="next_puzzle">Next puzzle</string>
+    <string name="quit_to_title">Back to title</string>
 
     <!-- Pause menu -->
-    <string name="paused">Em pausa</string>
-    <string name="timer_stopped">Tempo parado em %1$s</string>
-    <string name="resume">Continuar</string>
-    <string name="restart_puzzle">Recomeçar desafio</string>
-    <string name="new_puzzle">Novo desafio (sem estrelas)</string>
-    <string name="pause_help">↑ ↓ mover · OK escolher · VOLTAR continuar</string>
+    <string name="paused">Paused</string>
+    <string name="timer_stopped">Timer stopped at %1$s</string>
+    <string name="resume">Resume</string>
+    <string name="restart_puzzle">Restart puzzle</string>
+    <string name="new_puzzle">New puzzle (no stars)</string>
+    <string name="pause_help">↑ ↓ move · OK select · BACK resume</string>
 </resources>

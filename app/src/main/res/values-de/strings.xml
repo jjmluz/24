@@ -1,0 +1,48 @@
+<resources>
+    <!-- German. -->
+
+    <!-- Title screen -->
+    <string name="title_tagline">Mach 24 aus vier Zahlen</string>
+    <string name="title_rules">Nutze jede Zahl einmal: addieren, subtrahieren, multiplizieren oder dividieren.</string>
+    <string name="play">Spielen</string>
+    <string name="difficulty">Schwierigkeit</string>
+    <string name="difficulty_all">Alle</string>
+    <string name="difficulty_easy">Leicht</string>
+    <string name="difficulty_medium">Mittel</string>
+    <string name="difficulty_hard">Schwer</string>
+
+    <!-- Game board -->
+    <string name="puzzle_label">Rätsel</string>
+    <string name="placeholder_start">Wähle eine Zahl, um zu beginnen</string>
+    <string name="placeholder_next">Wähle eine Zahl</string>
+    <string name="hint_pick_first">Wähle eine Zahl</string>
+    <string name="hint_pick_op">Wähle eine Rechenart</string>
+    <string name="hint_pick_second">Wähle die zweite Zahl</string>
+    <string name="hint_pick_second_sub">Leere Felder zählen nicht</string>
+    <string name="hint_divide_by_zero">Durch 0 teilen geht nicht</string>
+    <string name="hint_merging">Rechne…</string>
+    <string name="hint_miss">Das ergibt nicht %1$d</string>
+    <string name="hint_miss_sub">Die Karten kommen zurück</string>
+    <string name="hint_solved">Gelöst!</string>
+    <string name="hint_solved_sub">Du hast alle vier Zahlen benutzt</string>
+    <string name="miss_note">nicht %1$d – versuch es noch mal</string>
+    <string name="key_back">ZURÜCK</string>
+    <string name="key_ok">OK</string>
+    <string name="action_undo">Rückgängig</string>
+    <string name="action_undo_sub">halten für Pause</string>
+    <string name="action_pause">Pause</string>
+
+    <!-- Solved dialog -->
+    <string name="solved_heading">Rätsel %1$d gelöst</string>
+    <string name="solved_time">Gelöst in %1$s</string>
+    <string name="next_puzzle">Nächstes Rätsel</string>
+    <string name="quit_to_title">Zum Start</string>
+
+    <!-- Pause menu -->
+    <string name="paused">Pausiert</string>
+    <string name="timer_stopped">Zeit angehalten bei %1$s</string>
+    <string name="resume">Weiter</string>
+    <string name="restart_puzzle">Rätsel neu starten</string>
+    <string name="new_puzzle">Neues Rätsel (ohne Sterne)</string>
+    <string name="pause_help">↑ ↓ bewegen · OK wählen · ZURÜCK weiter</string>
+</resources>

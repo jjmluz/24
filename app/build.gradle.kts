@@ -28,11 +28,11 @@ androidComponents {
 }
 
 android {
-    namespace = "com.game24.tv"
+    namespace = "com.jjmluz.twentyfour"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.game24.tv"
+        applicationId = "com.jjmluz.twentyfour"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

@@ -1,10 +1,10 @@
-package com.game24.tv.ui
+package com.jjmluz.twentyfour.ui
 
 import android.content.Context
 import android.media.AudioAttributes
 import android.media.SoundPool
-import com.game24.tv.R
-import com.game24.tv.game.Sound
+import com.jjmluz.twentyfour.R
+import com.jjmluz.twentyfour.game.Sound
 
 /** Short sound effects, decoded up front so they play without delay. */
 class GameSounds(context: Context) {

@@ -1,4 +1,4 @@
-package com.game24.tv.game
+package com.jjmluz.twentyfour.game
 
 enum class Sound { DEAL, PICK_NUMBER, PICK_OP, MERGE, UNDO, BLOCKED, MISS, SOLVED }
 

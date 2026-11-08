@@ -1,4 +1,4 @@
-package com.game24.tv.ui.theme
+package com.jjmluz.twentyfour.ui.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color

@@ -1,4 +1,4 @@
-package com.game24.tv.game
+package com.jjmluz.twentyfour.game
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals

@@ -1,4 +1,4 @@
-package com.game24.tv.ui
+package com.jjmluz.twentyfour.ui
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Animatable
@@ -63,16 +63,16 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.tv.material3.LocalTextStyle
 import androidx.tv.material3.Text
-import com.game24.tv.R
-import com.game24.tv.game.Card
-import com.game24.tv.game.Difficulty
-import com.game24.tv.game.GameState
-import com.game24.tv.game.Op
-import com.game24.tv.game.Phase
-import com.game24.tv.game.Slot
-import com.game24.tv.game.TARGET
-import com.game24.tv.game.starsFor
-import com.game24.tv.ui.theme.Game24Colors as C
+import com.jjmluz.twentyfour.R
+import com.jjmluz.twentyfour.game.Card
+import com.jjmluz.twentyfour.game.Difficulty
+import com.jjmluz.twentyfour.game.GameState
+import com.jjmluz.twentyfour.game.Op
+import com.jjmluz.twentyfour.game.Phase
+import com.jjmluz.twentyfour.game.Slot
+import com.jjmluz.twentyfour.game.TARGET
+import com.jjmluz.twentyfour.game.starsFor
+import com.jjmluz.twentyfour.ui.theme.Game24Colors as C
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.math.PI

@@ -1,4 +1,4 @@
-package com.game24.tv.ui
+package com.jjmluz.twentyfour.ui
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Canvas
@@ -34,10 +34,10 @@ import androidx.tv.material3.Button
 import androidx.tv.material3.ButtonDefaults
 import androidx.tv.material3.LocalContentColor
 import androidx.tv.material3.Text
-import com.game24.tv.R
-import com.game24.tv.game.Difficulty
-import com.game24.tv.game.DifficultyChoice
-import com.game24.tv.ui.theme.Game24Colors as C
+import com.jjmluz.twentyfour.R
+import com.jjmluz.twentyfour.game.Difficulty
+import com.jjmluz.twentyfour.game.DifficultyChoice
+import com.jjmluz.twentyfour.ui.theme.Game24Colors as C
 
 @Composable
 fun TitleScreen(
