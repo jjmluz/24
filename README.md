@@ -48,29 +48,35 @@ The game uses your TV's system language. It's translated into English, Portugues
 
 ## Install
 
-You need an Android TV or Google TV device with Android 9 or later and [developer options and USB or network debugging turned on](https://developer.android.com/studio/debug/dev-options). You also need the [Android SDK platform tools](https://developer.android.com/tools/releases/platform-tools) for `adb`.
+24 isn't on the Play Store. Download the APK from the [latest release](https://github.com/jjmluz/24/releases/latest) and sideload it onto any Android TV or Google TV device running Android 9 or later. Newer releases install over older ones and keep your settings.
 
-Build the release APK. Gradle needs JDK 17 or later; Android Studio's bundled JDK works:
+There are two common ways to sideload:
+
+- **From the TV:** install a file manager or downloader app on the TV, open the APK with it, and allow it to install unknown apps when asked.
+- **From a computer with `adb`:** turn on [developer options and USB or network debugging](https://developer.android.com/studio/debug/dev-options) on the TV, install the [Android SDK platform tools](https://developer.android.com/tools/releases/platform-tools), and run:
+
+  ```bash
+  adb connect <tv-ip-address>:5555
+  adb install -r 24-<version>.apk
+  ```
+
+  Optionally, open **24** once and then precompile it, so the animations are smooth from the very first game:
+
+  ```bash
+  adb shell cmd package compile -f -m speed-profile com.jjmluz.twentyfour
+  ```
+
+### Build it yourself
+
+Gradle needs JDK 17 or later; Android Studio's bundled JDK works:
 
 ```bash
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
 ./gradlew :app:assembleRelease
-```
-
-Connect to the TV and install:
-
-```bash
-adb connect <tv-ip-address>:5555
 adb install -r app/build/outputs/apk/release/app-release.apk
 ```
 
-Open **24** from the TV's app list once, then precompile it so the animations are smooth from the start:
-
-```bash
-adb shell cmd package compile -f -m speed-profile com.jjmluz.twentyfour
-```
-
-Install the release build, not the debug build. The debug build isn't optimised, and its animations stutter on real TVs. The release build is signed with the debug key: that's fine for sideloading, but you'd need a real key to publish on the Play Store.
+Install the release build, not the debug build: the debug build isn't optimised, and its animations stutter on real TVs. A release build you make yourself is signed with your own debug key, so it can't update a copy installed from GitHub (or the other way round). Uninstall one before installing the other.
 
 ## Development
 

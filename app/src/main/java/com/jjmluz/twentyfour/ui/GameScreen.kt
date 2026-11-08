@@ -154,24 +154,31 @@ fun GameScreen(vm: GameViewModel, onQuit: () -> Unit) {
             .focusable(),
     ) { d ->
         GameBoard(game, vm.seconds, puzzle, difficulty, d)
+        // The clock is stopped while either dialog is open, so collecting it here doesn't recompose every second.
         when {
-            paused -> PauseDialog(
-                seconds = vm.seconds.value,
-                d = d,
-                onResume = vm::resume,
-                onRestart = vm::restartPuzzle,
-                onNewPuzzle = vm::newPuzzle,
-                onQuit = onQuit,
-            )
-            game.phase == Phase.SOLVED -> SolvedDialog(
-                game = game,
-                seconds = vm.seconds.value,
-                stars = starsFor(vm.seconds.value),
-                puzzle = puzzle,
-                d = d,
-                onNext = vm::nextPuzzle,
-                onQuit = onQuit,
-            )
+            paused -> {
+                val seconds by vm.seconds.collectAsStateWithLifecycle()
+                PauseDialog(
+                    seconds = seconds,
+                    d = d,
+                    onResume = vm::resume,
+                    onRestart = vm::restartPuzzle,
+                    onNewPuzzle = vm::newPuzzle,
+                    onQuit = onQuit,
+                )
+            }
+            game.phase == Phase.SOLVED -> {
+                val seconds by vm.seconds.collectAsStateWithLifecycle()
+                SolvedDialog(
+                    game = game,
+                    seconds = seconds,
+                    stars = starsFor(seconds),
+                    puzzle = puzzle,
+                    d = d,
+                    onNext = vm::nextPuzzle,
+                    onQuit = onQuit,
+                )
+            }
         }
     }
 }
