@@ -97,3 +97,7 @@ Run the unit tests:
 ```
 
 [AGENTS.md](AGENTS.md) has the conventions to follow when changing the code.
+
+## License
+
+24 is released under the [MIT License](LICENSE).
